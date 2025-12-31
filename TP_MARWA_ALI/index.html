@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Marwa Ali - Data Science & Business Intelligence</title>
+</head>
+<body>
+
+    <header id="header">
+        <nav class="navbar">
+            <h1 class="logo">Marwa Ali</h1>
+            <ul class="nav_links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h2>Computer Engineering Student specializing in Artificial Intelligence & Data Science</h2>
+        <p>Transforming data into actionable insights that drive innovation and growth</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated Business Intelligence and Data Science student with a passion for data analysis, 
+            web development, and intelligent solutions. With strong analytical skills and a problem-solving mindset, 
+            I'm committed to leveraging data-driven approaches to create meaningful impact.
+        </p>
+        <p>
+            My goal is to become a skilled Data Analyst/Data Scientist, working on high-impact projects that 
+            drive business growth and innovation. I'm constantly learning and exploring new technologies in the 
+            AI and data science ecosystem.
+        </p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Technical Skills</h2>
+
+        <div class="skill">
+            <div class="skill-header">
+                <span>Python</span>
+                <span class="skill-percent">85%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 85%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-header">
+                <span>Data Analysis (Pandas, NumPy)</span>
+                <span class="skill-percent">80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-header">
+                <span>Machine Learning</span>
+                <span class="skill-percent">75%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 75%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-header">
+                <span>Deep Learning</span>
+                <span class="skill-percent">70%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 70%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-header">
+                <span>SQL & Database Management</span>
+                <span class="skill-percent">82%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 82%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-header">
+                <span>Statistics & Probability</span>
+                <span class="skill-percent">78%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 78%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-header">
+                <span>Scikit-learn & AI Frameworks</span>
+                <span class="skill-percent">80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-header">
+                <span>Web Development (HTML, CSS, JavaScript)</span>
+                <span class="skill-percent">75%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" style="width: 75%;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projet">
+        <h2>Featured Projects</h2>
+
+        <div class="projects">
+
+            <div class="project-card"
+                onclick="openModal(
+                    'Jobify',
+                    'Intelligent Recruitment Platform',
+                    'An AI-powered recruitment platform that automates candidate ranking and job matching using NLP and machine learning. It helps recruiters identify the best candidates efficiently.'
+                )">
+
+                <h3>Jobify</h3>
+
+                <p class="project-desc">
+                    AI-based recruitment platform that analyzes candidate skills and matches them with job offers using machine learning and NLP techniques.
+                </p>
+
+                <div class="project-tech">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Machine Learning</span>
+                    <span class="tech-badge">NLP</span>
+                </div>
+
+                <a href="https://github.com/marwaali1" target="_blank">View on GitHub →</a>
+            </div>
+
+
+            <div class="project-card"
+                onclick="openModal(
+                    'DataVista',
+                    'Electoral Data Analysis & Visualization',
+                    'Interactive platform for analyzing electoral datasets with dynamic charts, filters, and statistical insights.'
+                )">
+
+                <h3>DataVista</h3>
+
+                <p class="project-desc">
+                    Data analysis and visualization platform that transforms complex electoral datasets into interactive dashboards and meaningful insights.
+                </p>
+
+                <div class="project-tech">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Data Visualization</span>
+                    <span class="tech-badge">Analytics</span>
+                </div>
+
+                <a href="https://github.com/marwaali1" target="_blank">View on GitHub →</a>
+            </div>
+
+            <div class="project-card"
+                onclick="openModal(
+                    'Slinker',
+                    'Affiliation Link Verification Platform',
+                    'A system designed to detect fraudulent or invalid affiliation links using pattern recognition and verification algorithms.'
+                )">
+
+                <h3>Slinker</h3>
+
+                <p class="project-desc">
+                    Security-focused platform that verifies and detects fraudulent affiliation links using automated detection algorithms.
+                </p>
+
+                <div class="project-tech">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Security</span>
+                    <span class="tech-badge">Algorithms</span>
+                </div>
+
+                <a href="https://github.com/marwaali1" target="_blank">View on GitHub →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>Email: <a href="mailto:marwa.ali.1000110@gmail.com">marwa.ali.1000110@gmail.com</a></p>
+        <p>
+            <a href="https://www.linkedin.com/in/marwa-ali-205274303/" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/marwaali1" target="_blank">GitHub</a>
+        </p>
+        <p>&copy; 2025 Marwa Ali. All rights reserved.</p>
+    </footer>
+
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
